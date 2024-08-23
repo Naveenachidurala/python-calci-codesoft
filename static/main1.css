@@ -1,0 +1,83 @@
+*{
+    background-color: #3c3b36;
+  }
+  .header{
+      background-color:#3c3b36;
+      text-align: center;
+      font-size:50px;
+      font-family:'Times New Roman', Times, serif;
+      color:#F4FA3C;
+      letter-spacing: 5px;
+      /* text-decoration: underline; */
+    }
+    #second{
+      margin-top: 20px;
+    }
+    #second .middle{
+      border: 2px solid purple;
+      /* border:2px solid lightgrey; */
+      border-radius: 5px;
+      /* border-top:150px ; */
+    margin-top: 45px;
+    }
+    
+    #second .middle .result{
+      /* border:2px solid red; */
+      height: 60px;
+      width: 80%;
+      margin: 5% 10%;
+      /* border-radius: 10px; */
+    }
+    #result{
+        color: white;
+    }
+    #second .middle .result input{
+      border: 2px solid yellow;
+      width: 100%;
+      height:100%;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 10px;
+      text-align: right;
+      padding-right: 12px;
+    }
+    #second .middle .result input:focus {
+      /* border: 2px solid purple; */
+      border-radius: 10px;
+    }
+    #second .middle .keypad{
+      margin: 20px 15%;
+      margin-bottom: 5%;
+    }
+    #ques{
+        color: white;
+      float:right;
+    }
+    #second .middle  .keypad  .spc_btn{
+      margin: 8px 8px;
+      background-color: #9b988a;
+      font-weight:bold;
+      padding: 5px;
+    }
+    
+    #second .middle  .keypad  .num_btn{
+      margin: 5px 10px;
+      background-color:#b4ae92;
+      border-radius: 4px;
+      text-align: center;
+      padding: 5px;
+    }
+    
+    #second .middle  .keypad  .equal_btn{
+      margin: 5px 10px;
+      border-radius: 4px;
+      font-weight:bold;
+      padding:5px;
+      background-color: #9b988a;
+     }
+    #second .middle  .keypad  .spc_btn:hover{
+      background-color:#d7d9dd;
+    }
+    #second .middle  .keypad  .num_btn:hover{
+      background-color:#e8eaeb;
+    }
